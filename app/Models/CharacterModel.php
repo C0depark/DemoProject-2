@@ -15,7 +15,7 @@ class CharacterModel extends Model
     private string $uri = "https://the-one-api.dev/v2/character";
     private array $options = [
         'headers' => [
-            'Authorization' => 'Bearer P4aLTz9GpejXgF37vdB8'
+            'Authorization' => 'Bearer add-api-key-here'
         ]
     ];
     protected Client $client;
